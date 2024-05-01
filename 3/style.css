@@ -1,0 +1,71 @@
+body{
+    background: url(Space1.jpeg);
+    background-size: cover;
+}
+.title h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: beige;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background-color: antiquewhite;
+    margin: 10px 300px;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+    background-color: blueviolet;
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(Moon.jpeg);
+    background-size: cover;
+}
+form{
+    width: 100%;
+    height: 400px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.form p{
+    font-weight: bold;
+    width: 100%;
+    text-align: left
+}
+#username, #password{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 20px;
+    background-color: chartreuse;
+    outline: none;
+    cursor: pointer;
+}
+#username:focus, #password:focus{
+    border-bottom: 2px solid red;
+}
+#submit{
+    border: none;
+    outline: none;
+    height: 20px;
+    color: white;
+    background: black;
+    margin: 20px;
+    width: 90%;
+}
+#submit:hover{
+    background: blue;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
